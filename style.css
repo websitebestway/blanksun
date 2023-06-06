@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.debu{
+    text-align: center;
+    margin-top: 2rem;
+    height: 90px;
+}
+
+.debu h1{
+    color: aqua;
+}
+
+.navbar{
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    height: 35px;
+    background: deeppink;
+    border-radius: 20px;
+    border: 2px solid blueviolet;
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10vw;
+    font-weight: bold;
+}
+
+.contact{
+    margin: 10px;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.con h3{
+    background: pink;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.img{
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.ii{
+    text-align: center;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.label input{
+    margin-left: 6rem;
+}
+
+input{
+    width: 50%;
+}
+
+.title{
+    text-align: center;
+    width: 65vw;
+    margin-left: 2rem;
+    background-color: rgba(0, 157, 255, 0.796);
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+.html5{
+    width: 65vw;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border: 1px dashed black;
+    border-radius: 20px;
+}
+
+.html5 h1{
+    text-align: center;
+    background-color: blue;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.html5 p{
+    padding: 1rem;
+}
+
+footer{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+footer h1{
+    margin-bottom: 1rem;
+    color: fuchsia;
+}
+
+footer h2{
+    color: fuchsia;
+    margin-bottom: 1rem;
+}
